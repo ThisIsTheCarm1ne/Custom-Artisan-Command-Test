@@ -1,0 +1,16 @@
+{
+    "roles": {
+        "admin": {
+            "permissions": ["create", "read", "update", "delete"]
+        },
+        "user": {
+            "permissions": ["read"]
+        }
+    },
+    "permissions": {
+        "create": "Create new records",
+        "read": "View records",
+        "update": "Edit records",
+        "delete": "Remove records"
+    }
+}
